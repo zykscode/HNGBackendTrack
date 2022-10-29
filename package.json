@@ -4,9 +4,9 @@
   "description": "hng backend track stage 1",
   "main": "index.js",
   "scripts": {
-    "compile":"node --watch index.js",
+    "compile":"node --watch src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm run compile && node index"
+    "dev": "npm run compile && node src/index"
   },
   "repository": {
     "type": "git",
