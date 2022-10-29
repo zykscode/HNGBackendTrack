@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "hng backend track stage 1",
+  "main": "index.js",
+  "scripts": {
+    "compile":"node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run compile && node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "zykscode"
+  },
+  "keywords": [
+    "server",
+    "backend"
+  ],
+  "author": "zyk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
